@@ -3,7 +3,7 @@ import {
   FaWhatsapp
 } from "react-icons/fa";
 
-import invitationData from "../data/invitationData";
+import invitationData from "../data/InvitationData.js";
 
 function Footer() {
   const shareInvitation = () => {

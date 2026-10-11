@@ -955,3 +955,83 @@ button {
     scroll-behavior: auto !important;
   }
 }
+/* Responsive Design */
+
+/* Tablets */
+@media (max-width: 768px) {
+  .envelope-screen {
+    padding: 25px 15px;
+    min-height: 100vh;
+  }
+
+  .envelope-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .envelope-description {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .envelope {
+    transform: scale(0.85);
+  }
+
+  .invitation {
+    width: 90%;
+    max-width: 100%;
+    padding: 25px 18px;
+    margin: 20px auto;
+  }
+
+  .top-banner {
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .app {
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+/* Mobile Phones */
+@media (max-width: 480px) {
+  .envelope-title {
+    font-size: 1.6rem;
+    line-height: 1.3;
+  }
+
+  .envelope-description {
+    font-size: 0.85rem;
+  }
+
+  .envelope {
+    transform: scale(0.7);
+    transform-origin: center;
+  }
+
+  .envelope-pumpkins {
+    font-size: 1.5rem;
+  }
+
+  .invitation {
+    width: 92%;
+    padding: 20px 14px;
+  }
+
+  .invitation h1 {
+    font-size: 1.8rem;
+  }
+
+  .invitation p {
+    font-size: 0.9rem;
+    overflow-wrap: anywhere;
+  }
+
+  .app {
+    width: 100%;
+  }
+}

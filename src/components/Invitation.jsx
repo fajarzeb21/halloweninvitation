@@ -4,7 +4,7 @@ import {
   FaHatWizard
 } from "react-icons/fa";
 
-import invitationData from "../data/invitationData";
+import invitationData from "../data/InvitationData.js";
 
 function Invitation() {
   return (
